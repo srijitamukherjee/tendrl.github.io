@@ -1,26 +1,24 @@
 {% capture social %}
-## Twitter [@tendrl](http://twitter.com/tendrl/)
+### [<img src="/images/twitter.svg" class="icon" /> @tendrl](http://twitter.com/tendrl/)
 
-## YouTube [tendrlupstream](http://youtube.com/tendrlupstream/)
+### [<img src="/images/youtube.svg" class="icon" /> tendrlupstream](http://youtube.com/tendrlupstream/)
 
 {% endcapture %}
 
 {% capture legal %}
-
-## Legal
+### Legal
 Tendrl is an Open Source project released under the LGPL License.
 Read our Privacy Policy and Code of Conduct .
 © 2016 Tendrl
-
-[Edit this page on GitHub](FIXME)
-
 {% endcapture %}
 
-<div class="footer wrapper" id="#footer">
-  <div class="grid intro dark">
-    <div class="col-6_xs-12">{{ social | markdownify }}<hr></div>      
-    <div class="col-6_xs-12">{{ legal | markdownify }}<hr></div>      
+<header id="footer">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="col-6_xs-12">{{ social | markdownify }}</div>      
+      <div class="col-6_xs-12">{{ legal | markdownify }}</div>      
+    </div>
   </div>
-</div>
+</header>
 
 
