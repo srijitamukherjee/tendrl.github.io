@@ -13,7 +13,7 @@ It provides for installation, storage provisioning, lifecycle management, monito
 
 
 {% capture getstarted %}
-### Get Started
+# Get Started
 
 You can download Tendrl from our [GitHub repository](http://github.com/Tendrl). Binary builds are also available at FIXME. See our Quick Start Guide for instructions on getting started.
 
@@ -29,7 +29,7 @@ Tendrl is a community of developers who aim to solve the central management prob
 
 
 <div class="frontpage">
-  <div class="mission mission-text intro">{{ intro | markdownify }}<hr></div>
+  <div class="mission mission-text intro">{{ intro | markdownify }}</div>
   <div class="getstarted">{{ getstarted | markdownify }}</div>
   <div class="community">{{ community | markdownify }}</div>
 </div>
