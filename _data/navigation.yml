@@ -1,9 +1,7 @@
-- title: About
+- title: Home
+  url: "/"
+- title: About Tendrl
   url: "/about/"
-- title: Download
-  url: "/download/"
-- title: Documentation
-  url: "/docs/"
-- title: Get Involved
+- title: Community
   url: "/community/"
 
