@@ -1,10 +1,5 @@
 <header class="masthead hidden-print" id="branding" role="banner">
   <div class="navigation">
-     {% if site.data.navigation %}
-      <div class="nav-wrap">
-        {% include nav.html role="navigation" %}
-      </div>
-    {% endif %}
 
     <div class="col-4_xs-12_grid-center">
       {% assign logo_path = site.logo | default: "/images/logo.svg" %}
@@ -22,6 +17,10 @@
         <h2 id="site-title">{{ site.subtitle }}</h2>
       </div>
     {% endif %}
-
+    {% if site.data.navigation %}
+      <div class="nav-wrap">
+        {% include nav.html role="navigation" %}
+      </div>
+    {% endif %}
   </div>
 </header>
