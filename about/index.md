@@ -18,7 +18,7 @@ It will feature a modern dashboard based on the look and feel of PatternFly.
 # Planned Features
 
 Tendrl is work in progress, and we invite you to participate in its development
-&mdash; [Read more on how you can contribute]("/about/").
+&mdash; [Read more on how you can contribute](http://tendrl.org/community).
 
 Tendrl will feature a graphical dashboard with trend data for utilization, network usage, and other parameters, including alerts based on important events and thresholds.
 
