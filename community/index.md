@@ -15,7 +15,7 @@ The Tendrl project is a community of developers who aim to solve the central man
 
 To get involved, please join the discussion on either IRC (internet relay chat) or on the mailing list.
 
-  * Find us on irc.freenode.net #tendrl-devel
+  * Find us on [irc.freenode.net #tendrl-devel](https://webchat.freenode.net/?channels=#tendrl-devel)
   * Subscribe to the [tendrl-devel mailing list](https://www.redhat.com/mailman/listinfo/tendrl-devel)
   * Follow our development on [our GitHub](https://github.com/Tendrl) and
     the issue tracker of each module.
